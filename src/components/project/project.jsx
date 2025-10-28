@@ -7,8 +7,14 @@ return <div className='bg-slate-100 max-w-4xl mx-auto rounded-xl shadow-lg p-6 m
 </p>
 {techStack.map((item)=><TechPills title={item} />)}
 <br />
-<a href={demoUrl} className="py-5 text-blue-800" target="_blank">🔗 Live Demo</a> 
-
+<a
+  href={demoUrl}
+  className="py-5 text-blue-800 hover:text-blue-600 underline"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  🔗 Live Demo
+</a>
 </div>
 }
 
