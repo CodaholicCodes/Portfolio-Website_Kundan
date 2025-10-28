@@ -26,7 +26,7 @@ const Projects = () => {
   return (<Section icon={<Briefcase />} sectionHeading={"Projects"}>
 {
 projectsList.map((item) => 
-  <Project title={item.title} desc={item.desc} techStack={item.techUsed} demoUrl="{demoUrl}"  />
+  <Project title={item.title} desc={item.desc} techStack={item.techUsed} demoUrl={demoUrl}  />
 )
 }
 </Section>);
