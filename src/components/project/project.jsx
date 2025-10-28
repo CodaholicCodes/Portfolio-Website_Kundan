@@ -1,4 +1,4 @@
-import TechPills from "./techPills.jsx";
+import TechPills from "./TechPills";
 const Project=({title,desc,techStack,demoUrl})=>{
 return <div className='bg-slate-100 max-w-4xl mx-auto rounded-xl shadow-lg p-6 mb-4'>
 <h1 className="font-semibold text-xl mb-2">{title}</h1>
