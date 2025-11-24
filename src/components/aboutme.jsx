@@ -4,9 +4,7 @@ const Aboutme=()=>{
 return <div className="mt-6">
  <Section icon={<User />} sectionHeading="About Me">
  <p>
-I'm a passionate frontend developer skilled in React, JavaScript, and Tailwind CSS, with experience in building responsive and dynamic web applications.
-I also have hands-on knowledge of the MERN stack and am proficient in Data Structures and Algorithms, which helps me write efficient and scalable code.
-I’m eager to apply my skills, contribute to real-world projects, and grow through a frontend developer internship opportunity.
+I’m a full-stack developer with a strong foundation in data structures and algorithms. I enjoy building scalable, user-focused applications and writing clean, efficient code. My work spans both frontend and backend development, allowing me to create complete end-to-end solutions. I’m always exploring new technologies, improving my problem-solving skills, and taking on challenges that help me grow as an engineer..
  </p>
     </Section>
     </div>  ;
